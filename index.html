@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    .main{
+        display: flex;
+        width: 100%;
+    }
+    .menubar{
+        display: flex;
+        width: 100%;
+        height: 35px;
+        margin: 10px;
+    }
+    .searchbar{
+        width: 35%;
+        display: flex;
+        background-color: white;
+        margin-left: 275px;
+    }
+    input[type="text"] {
+    width: 495px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-left: auto;
+    padding: 10px;
+    border: 1px solid grey;
+}
+button {
+    width: 10%;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 1px solid grey;
+}
+img.search {
+    width: 31px;
+}
+img.mic{
+    background-color: #E5E5E5;
+    border-radius: 15px;
+    width: 33px;
+    margin-left: 5px;
+    padding: 7px;
+    }
+img.video{
+    width: 30px;
+    height: fit-content;
+    margin: 20px;
+}
+img.bell{
+    width: 30px;
+    height: fit-content;
+    margin: 20px;
+}
+img.profile{
+    width: 30px;
+    height: fit-content;
+    margin: 20px;
+}
+.menuend{
+    display: flex;
+    align-items: center;
+    margin-left: auto
+}
+img.youtube{
+        margin-left: 20px;
+}
+.sidebar{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    list-style-type: none;
+    border-bottom: 1px solid;
+}
+li.sideelements{
+    display: flex;
+    margin: 10px;
+}
+img.sideimg{
+    width: 23px;
+    height: fit-content;
+}
+.sidebar2{
+    display: flex;
+    width: 15%;
+    flex-direction: column;
+    list-style-type: none;
+    border-bottom: 1px solid;
+}
+p{
+    display: inline;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    width: 84%;
+    list-style-type: none;
+    height: fit-content;
+}
+.main2{
+    display: flex;
+    height: 150px;
+}
+li.categories{
+    display: flex;
+    background-color:#E5E5E5;
+    height: fit-content;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px;
+    font-family: sans-serif;
+}
+.thumbnails{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style-type: none;
+}
+.divside{
+    width: 44%;
+    height: fit-content;
+}
+.tn{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+img.tnimg{
+    width: 95%;
+}
+li.tni {
+    width: 24%;
+    margin: inherit;
+    font-family: sans-serif;
+}
+</style>
+<body>
+   <div class="main">
+    <div class="menubar"><img src="/images/menu.png" alt="">
+     <img class="youtube" src="/images/youtube.png" alt="">
+     <form action="" class="searchbar">
+        <input type="text" placeholder="Search">
+        <button type="submit"><img class="search" src="/images/magnifying-glass.png" alt=""></button>
+     </form>
+     <img class="mic" src="/images/mic.png" alt="">
+     <div class="menuend">
+     <img class="video" src="/images/video.png" alt="">
+     <img class="bell" src="/images/bell.png" alt="">
+     <img class="profile" src="/images/profile-user.png" alt="">
+    </div>
+    </div> 
+</div>
+<div class="main2">
+<div class="divside">
+    <ul class="sidebar">
+    <li class="sideelements"><img class="sideimg" src="/images/homepage.png" alt=""><p>Home</p></li>
+    <li class="sideelements"><img class="sideimg" src="/images/shorts.png" alt=""><p>Shorts</p></li>
+    <li class="sideelements"><img class="sideimg" src="/images/subscribe.png" alt=""><p>Subscriptions</p></li>
+</ul></div>
+<div>
+<ul class="section">
+    <li class="categories">All</li>
+    <li class="categories">Mixes</li>
+    <li class="categories">Music</li>
+    <li class="categories">Twenty20&nbsp;Cricket</li>
+    <li class="categories">Selena&nbsp;Gomez</li>
+    <li class="categories">Indian&nbsp;Pop&nbsp;Music</li>
+    <li class="categories">Deep&nbsp;House</li>
+    <li class="categories">Computer&nbsp;Programming</li>
+    <li class="categories">House&nbsp;Music</li>
+    <li class="categories">Live</li>
+    <li class="categories">News</li>
+</ul>
+<div class="tn">
+    <ul class="thumbnails">
+        <li class="tni"><img class="tnimg" src="/images/tn1.png" alt=""><h4>Create free store today.</h4><p>Use our platform for free. No trial needed.Join the shopify partner program.</p></li>
+        <li class="tni"><img class="tnimg" src="/images/tn2.png" alt=""><h4>Manike Audio-Thank God</h4><p>T-Series</p></li>
+        <li class="tni"><img class="tnimg" src="/images/tn3.png" alt=""><h4>India Vs Netherlands Highlights-ICC T20 World Cup</h4><p>JS Sports HD</p></li>
+        <li class="tni"><img class="tnimg" src="/images/tn4.png" alt=""><h4>Mix Linkin Park In the End. Fast and Furios</h4><p>House Music HD,Linkin Park</p></li>
+        <li class="tni"><img class="tnimg" src="/images/tn5.png" alt=""><h4>How to divide PNR|Split the PNR|Ticket Issuence Entry</h4><p>Asquare Acadmey</p></li>
+        <li class="tni"><img class="tnimg" src="/images/tn6.png" alt=""><h4>Selene Gomez&Rena Calm Down Official Music Video</h4><p>tvs21</p></li>
+        <li class="tni"><img class="tnimg" src="/images/tn7.png" alt=""><h4>Na Na Mickey Singh Full Video Jonita Gandhi</h4><p>Diljit Dosanjh, Micky Singh, Jonita Gandhi</p></li>
+        <li class="tni"><img class="tnimg" src="/images/tn8.png" alt=""><h4>Mix Aankhein Khuli hou ya Hou Bandh</h4><p>Karan Nawani Ashwani</p></li>
+    </ul>
+</div>
+
+</div>
+
+</div>
+<ul class="sidebar2">
+    <li class="sideelements"><img class="sideimg" src="/images/library.png" alt=""><p>Library</p></li>
+    <li class="sideelements"><img class="sideimg" src="/images/history.png" alt=""><p>History</p></li>
+    <li class="sideelements"><img class="sideimg" src="/images/clock.png" alt=""><p>Watch&nbsp;Later</p></li>
+    <li class="sideelements"><img class="sideimg" src="/images/thumb-up.png" alt=""><p>Liked&nbsp;Videos</p></li>
+</ul>
+<ul class="sidebar3"><h3>Subscriptions</h3>
+    <li class="sideelements">A</li>
+    <li class="sideelements">B</li>
+    <li class="sideelements">C</li>
+</ul>
+
+</body>
+</html>
